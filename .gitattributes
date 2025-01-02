@@ -1,2 +1,15 @@
+# Exclude all common C++ extensions from linguist detection
+*.cpp linguist-detectable=false
+*.hpp linguist-detectable=false
+*.cxx linguist-detectable=false
+*.hxx linguist-detectable=false
+*.cc linguist-detectable=false
+*.hh linguist-detectable=false
 *.c++ linguist-detectable=false
+*.h++ linguist-detectable=false
+*.C linguist-detectable=false
+*.H linguist-detectable=false
+
+# Exclude all CMake-related files from linguist detection
 *.cmake linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
